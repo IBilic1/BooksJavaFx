@@ -1,0 +1,23 @@
+.button:hover {
+    -fx-background-color: #ff6633;
+}
+
+.button:pressed {
+    -fx-background-color: #cccc00;
+    -fx-scale-y: 1.1;
+    -fx-scale-x: 1.1;
+}
+
+#pnlActions, #gridPane{
+    -fx-background-color: teal;
+}
+
+#pnlActions .label, #gridPane .label {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 18px;
+}
+
+.txtBold {
+     -fx-font-weight: bold;
+}
